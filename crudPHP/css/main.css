@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap");
+
+/* Yrmih Ian: Aqui eu alterei as configurações da fonte para todo o corpo do documento */
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+/* Yrmih Ian: Aqui é o estilo para alertas */
+.alert {
+  padding: 0.5rem;
+  color: #721c24; /* Cor do texto para alertas de erro */
+  background-color: #f8d7da; /* Cor de fundo para alertas de erro */
+  border: 1px solid #f5c6cb; /* Cor da borda para alertas de erro */
+}
+
+/* Yrmih Ian: Aqui é o estilo para títulos e rótulos de formulário */
+.form-wrap h1,
+.form-wrap .form-label {
+  font-weight: 600;
+  color: #000; /* Cor do texto para títulos e rótulos de formulário */
+}
+
+/* Yrmih Ian: Aqui é estilo para campos de formulário e botões */
+.form-control {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
